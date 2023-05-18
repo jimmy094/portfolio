@@ -1,39 +1,32 @@
 import React from "react";
+import me2 from '../assets/me2.png'
 
 const About = () => {
   return (
     <div
-      name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
-    >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
+    name="about"
+    className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+  >
+    <div className="max-w-screen-lg p-4 mx-auto flex flex-row items-center justify-around w-full h-3/4">
+  
+      <div className="flex flex-col items-center">
+        
+        <h2 className="text-4xl font-bold">
+          About
+        </h2>
+        <div className="max-w-sm ml-5">
+          <p className="text-lg break-words pl-5" >
+          Highly motivated engineer with a strong background in web development and over 8 years of customer facing support experience. Quick learner with a passion for problem solving and ensuring the best possible experience for customers.
           </p>
         </div>
-
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
-        </p>
-
-        <br />
-
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
+        
+  
       </div>
+      <img className="rounded-2xl h-40 w-30" src={me2} alt="me" />
+        
+      
     </div>
+  </div>
   );
 };
 

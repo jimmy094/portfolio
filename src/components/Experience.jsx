@@ -37,27 +37,27 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png',
+      title: "Express",
+      style: "shadow-gray-400",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-blue-400",
     },
     {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 8,
+      id: 6,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 6,
+      src: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png',
+      title: "MongoDB",
+      style: "shadow-green-400",
     },
   ];
 
@@ -71,7 +71,7 @@ const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6">A few of the technologies I've worked with:</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
